@@ -7,9 +7,8 @@ export const Container = styled.div`
   min-width: 800px;
   margin: 20px;
   padding: 20px;
-  border: 2px solid #dbb858;
+  border: 2px;
   border-radius: 10px;
-  background-color: #c3e6afea;
 `;
 
 export const HeaderNav = styled.nav`
@@ -25,7 +24,7 @@ export const Header = styled.header`
   top: 0;
 
   padding: 0 10px 0 auto;
-  border: 2px solid blue;
+  border: 2px;
   border-radius: 10px;
 
   > nav {

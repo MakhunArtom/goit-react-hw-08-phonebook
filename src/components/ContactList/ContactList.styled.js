@@ -9,10 +9,6 @@ export const ContactUl = styled.ul`
   margin-right: auto;
   padding: 10px;
   font-size: 24px;
-  background-color: #c3e6afea;
   border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0.25);
+  border: 2px;
 `;
-
-
-

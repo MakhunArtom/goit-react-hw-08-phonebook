@@ -16,14 +16,13 @@ export const FilterInput = styled.input`
   padding: 8px;
   margin: 10px 0 10px 8px;
   max-width: 80%;
-  border: 1px solid;
+  border: 1px ;
   border-radius: 8px;
   border-color: blue;
 `;
 
 export const FilterDiv = styled.div`
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   margin-left: 50px;
 `;
