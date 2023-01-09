@@ -22,7 +22,7 @@ const LoginPage = lazy(() => import('../../pages/Login'));
 export default function App() {
   const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
-
+  // 1
   useEffect(() => {
     dispatch(refreshUser());
   }, [dispatch]);
